@@ -54,7 +54,7 @@ function quizbook_metaboxes($post){
             <td>
                 <input type="text" name="qb_respuesta_3" id="quizbook_respuesta_3" value="<?php echo esc_attr(get_post_meta($post->ID, 'qb_respuesta_3',true)); ?>" class="regular-text">
             </td>
-        </tr>
+        </tr> 
         <tr>
             <th class="row-title">
                 <label for="quizbook_respuesta_4">d)</label>

@@ -1,5 +1,5 @@
 <?php 
-
+ 
 function quizbook_crear_role(){
     add_role('quizbook','Quiz');
 }

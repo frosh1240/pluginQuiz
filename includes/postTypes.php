@@ -1,4 +1,4 @@
-<?php 
+ <?php 
 if(!defined('ABSPATH')) exit;
 
 function quizbook_post_types() {

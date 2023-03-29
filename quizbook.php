@@ -49,3 +49,4 @@ register_activation_hook(__FILE__, 'quizbook_rewrite_flush');
 * Regenera las reglas de las urls al activar el plugin
 */
 require_once plugin_dir_path(__FILE__) . 'includes/functions.php';
+ 

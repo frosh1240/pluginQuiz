@@ -33,7 +33,7 @@ function quizbook_shortcode($atts, $content = null){
                             foreach($opciones as $llave => $opcion){
                                 $resultado = quizbook_filtrar_preguntas($llave);
                                 
-
+                                
                                 if($resultado === 0){
                                     $numero = explode('_', $llave);
                                     ?> 

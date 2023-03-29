@@ -3,7 +3,7 @@
 
     //verificar que el post type sea quizes
     if($post->post_type != 'quizes') return;
-
+ 
     //verificar que el nonce sea valido
     if(!isset($_POST['quizbook_meta_box_nonce']) || !wp_verify_nonce($_POST['quizbook_meta_box_nonce'], basename(__FILE__))) return;
 
